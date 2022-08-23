@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My JamBuddy Website</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <h1>Jambuddy</h1>
+    <div id="content">
+      <div id="streak">Current Streak 0</div>
+      <h5 id="notes"></h5>
+      <div id="explanation">
+        <div id="highlightedNotes"></div>
+        <div id="revealedAnswer"></div>
+      </div>
+      <button id="revealAnswerButton">Reveal Answer</button>
+      <button id="getNotesButton">Get random notes</button><br />
+      <input type="number" id="answer" placeholder="Enter Your answer" />
+      <button id="getAnswer">Submit answer</button>
+      <p id="message"></p>
+    </div>
+
+    <script src="bundle/dom_manipulation.js"></script>
+  </body>
+</html>

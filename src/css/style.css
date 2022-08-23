@@ -1,0 +1,57 @@
+body {
+  background-color: #84a98c;
+}
+
+#getNotesButton,
+#revealAnswerButton,
+#answer,
+#getAnswer {
+  padding: 10px;
+}
+
+#answer,
+#getAnswer,
+#getNotesButton,
+#explanation {
+  margin-top: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 60px;
+}
+
+#content {
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #475b5a;
+}
+
+.correctAnswerText {
+  color: lightblue;
+  font-size: large;
+  font-weight: bold;
+}
+
+.incorrectAnswerText {
+  color: pink;
+  font-size: large;
+  font-weight: bold;
+}
+
+.noAnswerText {
+  color: violet;
+  font-size: large;
+  font-weight: bold;
+}
+
+#notes,
+#streak {
+  color: lightcyan;
+  font-size: large;
+  font-weight: bold;
+}
