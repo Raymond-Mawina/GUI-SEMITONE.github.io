@@ -5,7 +5,6 @@ const jamBuddySession = new JamBuddy();
 helperVariable.notes.innerText = jamBuddySession.selectNotes().toString();
 
 function getSelectedNotes() {
-  helperVariable.getAnswerButton.addEventListener("click", getResult);
   helperVariable.highlightedNotes.innerHTML = "";
   helperVariable.revealedAnswer.innerHTML = "";
   helperVariable.notes.innerText = jamBuddySession.selectNotes().toString();
@@ -16,7 +15,6 @@ function getSelectedNotes() {
 
 function getResult() {
   if (helperVariable.answer.value !== "") {
-    helperVariable.getAnswerButton.removeEventListener("click", getResult);
     const result = jamBuddySession.checkAnswer(
       parseInt(helperVariable.answer.value)
     );
